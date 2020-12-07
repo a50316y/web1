@@ -12,7 +12,7 @@
                             li.c-footer__item.c-contact-info__item
                                 font-awesome-icon(:icon="['fas', 'phone']" class="ItemIcon")
                                 a(class="c-footer__link" href="#!") 02-2568-1549
-                        div.social-btns
+                        div.social-btns 
                             a(href="#!" class="icon-btn")
                                 font-awesome-icon(:icon="['fab', 'facebook-f']" class="ItemIcon")
                             a(href="#!" class="icon-btn")
