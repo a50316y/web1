@@ -1,0 +1,178 @@
+/* common */
+.big-word {
+    font-size: 160px;
+    color: rgba(103, 114, 229, 0.1);
+    position: absolute;
+    font-weight: 700;
+    user-select: none;
+}
+
+/* about */
+.index-about .heading {
+    font-size: 34px;
+    font-weight: 300;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+
+.index-about .heading:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 4px;
+    background-color: #6772e5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.index-about .para {
+    margin-bottom: 24px;
+}
+
+.index-about .intro {
+    padding-top: 48px;
+}
+
+.index-about .big-word {
+    right: -240px;
+    top: -160px;
+}
+
+/* service */
+.index-service {
+    text-align: center;
+}
+
+.index-service .card {
+    padding: 40px;
+    height: 100%;
+}
+
+.index-service .icon {
+    font-size: 64px;
+    color: #6772e5;
+    text-align: center;
+}
+
+.index-service .heading {
+    color: #6772e5;
+    margin-bottom: 24px;
+}
+
+.index-service .btn-group {
+    margin-top: 48px;
+}
+
+.index-service .big-word {
+    left: -240px;
+    top: -160px;
+}
+
+/* project */
+.index-project .project-item {
+    margin-bottom: 160px;
+}
+
+.index-project .project-item:last-child {
+    margin-bottom: 0px;
+}
+
+.index-project .intro {
+    padding-top: 144px;
+}
+
+.index-project .heading {
+    font-size: 48px;
+    font-weight: 300;
+    white-space: nowrap;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-shadow: 2px 10px 8px rgba(103, 114, 229, 0.25);
+}
+
+.index-project .heading:after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 4px;
+    background-color: #6772e5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.index-project .heading--left {
+    margin-left: -64px;
+}
+
+.index-project .para {
+    margin-bottom: 24px;
+}
+
+.index-project .big-word {
+    right: -240px;
+    top: -160px;
+}
+
+/* designer */
+.index-designer .designer {
+    text-align: center;
+    padding: 48px;
+    height: 100%;
+}
+
+.index-designer .avatar {
+    margin-bottom: 16px;
+}
+
+.index-designer .heading {
+    margin-bottom: 16px;
+}
+
+.index-designer .para {
+    margin-bottom: 16px;
+}
+
+.index-designer .big-word {
+    left: -240px;
+    top: -160px;
+}
+
+/* quote */
+.index-quote {
+    text-align: center;
+}
+
+.index-quote .fa {
+    font-size: 48px;
+    color: #6772e5;
+    margin-bottom: 32px;
+}
+
+.index-quote .big-word {
+    right: -240px;
+    top: -160px;
+}
+
+/* contact */
+.index-contact {
+    text-align: center;
+    // background-image: url('../images/bg/bg002.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index-contact .heading {
+    margin-bottom: 16px;
+}
+
+.index-contact .para {
+    margin-bottom: 32px;
+}
+
+.index-contact .big-word {
+    left: -240px;
+    top: -160px;
+}

@@ -1,0 +1,22 @@
+// helpers
+@import 'helpers/mixin';
+@import 'helpers/transition';
+@import 'helpers/variables';
+@import 'helpers/other';
+// vendors
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/src/index.scss";
+
+// base
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+
+// layout
+@import 'layout/header';
+
+// module
+@import 'module/index';
+
+//component
+@import 'component/component';
